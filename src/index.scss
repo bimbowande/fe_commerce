@@ -1,0 +1,17 @@
+@import './styles/fonts.scss';
+
+html, body{
+  width:100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+h1,h2,h3{
+  font-family: ITCAvant;
+  font-weight: 300;
+}

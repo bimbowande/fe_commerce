@@ -10,18 +10,22 @@ background-repeat:none;
 `
 
 
-
 export const IntroSectionContainer = styled.section`
     display:flex;
-    height:800px;
+    height:787px;
 `
 
 export const BrandText = styled.div`
   flex:1;
-  border:1px solid green;
+  display:flex;
+  align-items:center;
 `
 
+export const BrandTextContent = styled.div`
+    width:40%;
+    margin: 0 auto;
 
+`
 
 export const BrandImage = styled.div<BrandImg>`
   background-image: url(${(props:any)=> props.image});
@@ -30,3 +34,5 @@ export const BrandImage = styled.div<BrandImg>`
   box-sizing:border-box;
   ${BgImageModify}
 `
+
+

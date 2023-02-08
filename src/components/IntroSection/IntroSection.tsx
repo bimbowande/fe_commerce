@@ -17,7 +17,6 @@ export const IntroSection = () => {
                 <Paragraph className='link_bottom' color={colors?.darkColor}><LinkText color={colors?.darkColor} href='/'>Let's talk</LinkText></Paragraph>
                 </BrandTextContent>
             </BrandText>
-           
         <BrandImage image={CatLg}></BrandImage>
     </IntroSectionContainer>
   )

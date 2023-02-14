@@ -1,13 +1,16 @@
 import React from 'react'
-import { BrandImage, BrandText, BrandTextContent, IntroSectionContainer } from './style';
+import { BrandImage, BrandText, BrandTextContent, IntroSectionContainer, IntroSectionContent } from './style';
 import CatLg from '../../images/image_cat/Spaniel01_gradient@2x.png'
 import { HeaderLevel2, HeaderLevel4, LinkText, Paragraph } from '../../styles';
 import { colors } from '../../styles/colors';
+import { Nav } from '../Nav/Nav';
 
 export const IntroSection = () => {
 
   return (
     <IntroSectionContainer>
+      <Nav/>
+      <IntroSectionContent>
         <BrandText>
             <BrandTextContent>
                 <HeaderLevel4 color={colors?.red_color} className='header_text'>Brand , Dev , Ecom, Marketing</HeaderLevel4>
@@ -17,7 +20,8 @@ export const IntroSection = () => {
                 <Paragraph className='link_bottom' color={colors?.darkColor}><LinkText color={colors?.darkColor} href='/'>Let's talk</LinkText></Paragraph>
                 </BrandTextContent>
             </BrandText>
-        <BrandImage image={CatLg}></BrandImage>
+            <BrandImage image={CatLg}></BrandImage>
+        </IntroSectionContent>
     </IntroSectionContainer>
   )
 }

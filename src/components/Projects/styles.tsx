@@ -12,7 +12,7 @@ export interface CarouselPointerI{
 
 
 export const ProjectContainer = styled.section`
-    height:700px;
+    height:auto;
     padding : 70px 0;
 `
 

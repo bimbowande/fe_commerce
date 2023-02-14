@@ -5,6 +5,7 @@ import { IntroSection } from './components/IntroSection/IntroSection';
 import { ServiceSection } from './components/ServicesSection/ServiceSection';
 import { LayoutContent } from './components/Layout/style';
 import { Projects } from './components/Projects/Projects';
+import { CaseStudy } from './components/CaseStudy/CaseStudy';
 
 
 
@@ -15,8 +16,8 @@ function App() {
           <IntroSection/>
           <ServiceSection/>
           <Projects/>
+          <CaseStudy/>
        </LayoutContent>
-    
     </Layout>
   );
 }
